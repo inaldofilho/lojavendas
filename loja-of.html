@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Modelo</title>
+
+<style>
+    body{
+        text-align: center;
+    }
+    header{
+        background-image: linear-gradient(to left,rgb(174, 169, 169), white,white,rgb(174, 169, 169));
+        margin: -8px;
+    }header>p{
+        font-size: 1.2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    section>p{
+        font-size: 1.1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    div{
+        display: inline-block;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    div>h1{
+        height: 35px;
+        color: white;
+        background-color: black;
+        margin-top: -9px;
+        margin-right: -8px;
+        margin-left: -8px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    
+        
+    
+    div>h2{
+        text-align: center;
+        margin-top: -8px;
+    }
+    .imagens{
+        width:300px ;
+        height: 300px;
+    }
+    div>p{
+        text-align: center;
+        font-size: 19px;
+    }
+    div>h3{
+        text-align: center;
+    }
+    .camisa{
+        display: inline-table;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    .bermuda{
+        display: inline-table;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    .calça{
+        display: inline-table;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    .acessorios{
+        display: inline-table;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    .acessorios>h1{
+        height: 35px;
+        color: white;
+        background-color: black;
+        margin-top: -9px;
+        margin-right: -8px;
+        margin-left: -8px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 34px;
+    }
+    .acessorios>h2{
+        font-size: 25px;
+    }
+    
+        
+    
+    .tenis{
+        display: inline-table;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.514);
+        border-radius: 15px;
+    }
+    
+    nav{
+        text-align: left;
+        margin: 0px;
+    }
+    nav>a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 5px;
+        color:blue;
+        
+    }
+    nav>a:hover{
+        background-color: rgb(48, 231, 57);
+        color: white;
+        text-decoration: underline;
+        border-radius: 10px;
+    }
+    div>p>a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(48, 231, 57);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+    div>p>a:hover{
+        text-decoration: underline;
+        background-color: rgb(133, 237, 133);
+    }
+    footer{
+        padding: 10px;
+        background-image: linear-gradient(to left,rgb(194, 194, 194) ,white,white,rgb(194, 194, 194) );
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -20px
+        
+
+    }
+    footer>h1{
+        background-color: black;
+        width: 180px;
+        border-radius: 15px;
+        margin: auto;
+        color: white;
+    }
+
+
+    footer>.pedido{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(48, 231, 57);
+        width: 150px;
+        border-radius: 10px;
+        margin: auto;
+        padding: 8px;
+
+    }
+    footer>.pedido:hover{
+        text-decoration: underline;
+        background-color: rgb(133, 237, 133);
+    }
+</style>
+</head>
+<body>
+    
+    <header>
+        
+        <img class="logo" src="./imagens/logo.png" alt="logo">
+        <h1>Estilo Wolf</h1>
+        <h2> Grandeza no estilo de se vestir</h2>
+    
+       <p>Compras pela internet acima de <strong>R$ 100 reais </strong>entregamos em sua residência!.</p>
+
+       
+    </header>
+    <nav>
+        <a href="file:///C:/Users/filho/Documents/p-loja/home.html"> Home</a>
+        <a href="#">Midias</a>
+        <a href="#">Tiktok</a>
+        <a href="#">Instagram </a>
+    </nav>
+    <section>
+
+        <p>Loja especializada em produtos Masculinos</h1>
+        <h2>Acessórios </p>
+    </section>
+    
+
+        <div class="acessorios">
+            <h1>  Wolf</h1>
+            <h2> Perfume</h2>
+            <img class="imagens" src="./imagens/perfume.jfif" alt="Luxo">
+            <p>Perfumes  Masculino <br> Essencial <br>
+              <strong> R$ 79,90 </strong>
+              <br>
+                <a href="#">Ver mais</a>
+
+            </p>
+        </div>
+    
+        <div class="acessorios">
+            <h1>  Wolf</h1>
+            <h2> Boné</h2>
+            <img class="imagens" src="./imagens/bone.jpg" alt="Luxo">
+            <p> Boné Masculino <br> NYC <br>
+                <strong> R$ 49,99</strong> <br>
+                <a href="#">Ver mais</a>
+            </p>
+            
+        </div>
+        <div class="acessorios">
+            <h1>  Wolf</h1>
+            <h2> Relogio</h2>
+            <img class="imagens" src="./imagens/relogio.jpg" alt="Luxo">
+            <p>Relogio Masculino <br>Bulova <br>
+                <strong>R$ 149,50</strong>
+                <br>
+                <a href="#">Ver mais</a>
+            </p>
+        </div>
+
+        <section> 
+            <h1> Camisa de sporte</h1>
+        </section>
+
+        <div class="camisa">
+        <h1>  Wolf </h1>
+        <h2> Sporte</h2>
+        <img class="imagens" src="./imagens/sport.jpg" alt="">
+        <p>Camisa tamanho M,G,GG <br> Modo Sporte <br><strong> R$ 24,99 </strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+
+
+    </div >
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Sporte</h2>
+        <img class="imagens" src="./imagens/camiseta-2.jfif" alt="">
+        <p>Camisa tamanho M,G,GG <br> Modo Sporte <br><strong> R$ 24,99 </strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+
+
+    </div>
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Sporte</h2>
+        <img class="imagens" src="./imagens/sport-4.webp" alt="">
+        <p>Camisa tamanho M,G,GG <br> Modo Sporte <br><strong> R$ 24,99 </strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+            
+    <section>
+        <h1>Camisa de classico</h1>
+    </section>
+
+
+    
+
+
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Clássico</h2>
+        <img class="imagens" src="./imagens/classico.webp" alt="Clássico">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Clássico <br>
+        <strong> R$ 34,99</strong> 
+        <br>
+        <a href="#">Ver mais</a>
+        </p>
+
+
+
+    </div>
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Clássico</h2>
+        <img class="imagens" src="./imagens/camisa-1.jpg" alt="Clássico">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Clássico <br>
+        <strong> R$ 34,99</strong> 
+        <br>
+        <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Clássico</h2>
+        <img class="imagens" src="./imagens/classico-3.jpg" alt="Clássico">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Clássico <br>
+        <strong> R$ 34,99</strong> 
+        <br>
+        <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+
+    <section> 
+        <h1> Camisa de Luxo<h1>
+    </section>
+
+
+
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/luxo.webp" alt="Luxo">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Luxo <br>
+            <strong>R$ 49,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+         
+
+
+    </div>
+
+    <div class="camisa">
+        <h1>Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/l1.jpg" alt="Luxo">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Luxo <br>
+            <strong>R$ 49,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <div class="camisa">
+        <h1>  Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/luxo-3.jpg" alt="Luxo">
+        <p>Camisa tamanho M,G,GG <br>
+            Modo Luxo <br>
+            <strong>R$ 49,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <h2> Bermudas</h2>
+
+    <div class="bermuda">
+        <h1>  Wolf</h1>
+        <h2> sporte</h2>
+        <img class="imagens" src="./imagens/short.jpg" alt="Luxo">
+        <p>Bermuda tamanho 36,38,40,42 <br>
+            Modo Sporte<br>
+            <strong>R$ 25,90</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <div class="bermuda">
+        <h1>  Wolf</h1>
+        <h2> Clássico</h2>
+        <img class="imagens" src="./imagens/bermuda-2.jpg" alt="Luxo">
+        <p>Bermuda tamanho 36,38,40,42 <br>
+            Modo Clássico <br>
+            <strong>R$ 54,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+    <div class="bermuda">
+        <h1>  Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/bermuda-3.png" alt="Luxo">
+        <p>Bermuda tamanho 36,38,40,42 <br>
+            Modo Luxo <br>
+            <strong>R$ 69,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <h2> Calças </h2>
+
+    <div class="calça">
+        <h1>  Wolf</h1>
+        <h2> Sporte</h2>
+        <img class="imagens" src="./imagens/calça-3.jfif" alt="Luxo">
+        <p>Calça tamanho 36,38,40,42 <br>
+            Modo Sporte <br>
+            <strong>R$ 29,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+    <div class="calça">
+        <h1>  Wolf</h1>
+        <h2> Clássico </h2>
+        <img class="imagens" src="./imagens/calça-2.jfif" alt="Luxo">
+        <p>Calça tamanho 36,38,40,42 <br>
+            Modo Clássico <br>
+            <strong>R$ 74,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <div class="calça">
+        <h1>  Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/calça.jfif" alt="Luxo">
+        <p>Calça tamanho 36,38,40,42 <br>
+            Modo Luxo <br>
+            <strong> R$ 89,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <h2>Tênis </h2>
+    <div class="tenis">
+        <h1>  Wolf</h1>
+        <h2> Sporte </h2>
+        <img class="imagens" src="./imagens/tenis-1.jfif" alt="Luxo">
+        <p>Tênis tamanho 38,39,40,41 <br>
+            Modo Sporte<br>
+            <strong>R$ 99,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+
+    <div class="tenis">
+        <h1>  Wolf</h1>
+        <h2> Clássico</h2>
+        <img class="imagens" src="./imagens/tenis-3.jfif" alt="Luxo">
+        <p>Bermuda tamanho 38,39,40,41 <br>
+            Modo Clássico <br>
+            <strong>R$ 154,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+    <div class="tenis">
+        <h1>  Wolf</h1>
+        <h2> Luxo</h2>
+        <img class="imagens" src="./imagens/tenis-4.jpg" alt="Luxo">
+        <p>Bermuda tamanho 38,39,40,41 <br>
+            Modo Luxo <br>
+            <strong>R$ 199,99</strong>
+            <br>
+            <a href="#">Ver mais</a>
+        </p>
+    </div>
+    
+    <footer>
+        <h1>Wolf</h1>
+        <h2> Grandeza no estilo de se vestir</h2>
+        <p> Uma pagina para demostra a variedade dos nossos produtos, com a maior qualidade de produto ja vista no mercado, e um atendimento eficiente,buscando sempre a necessidade dos nossos clientes.</p>
+
+        <h3 class="pedido">Fazer Pedido</h3>
+
+        <h3><li>Loja Fisica - Localização</h3>
+        <p>União dos Palmares-al <br> Rua luiz gomes de freitas,Nº 350</p>
+        
+
+    </footer>
+
+
+
+    
+</body>
+</html>
